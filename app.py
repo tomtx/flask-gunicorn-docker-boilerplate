@@ -11,7 +11,7 @@ api.add_namespace(authentication_namespace)
 api.init_app(blueprint)
 web_app.register_blueprint(blueprint)
 # 3) configure the web app
-# - (e.g. reject incoming requests with a content length greater than following value of bytes) 
+# (e.g. reject incoming requests with a content length greater than following value in bytes) 
 web_app.config['MAX_CONTENT_LENGTH'] = 10 * 1024 * 1024
 
 if __name__ == '__main__':
