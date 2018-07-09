@@ -1,2 +1,2 @@
-# Boilerplate for Containerized Python App
-> This is a boilerplate for containerized Python backend app. It has Flask as a Python micro web framework, Gunicorn as a Python Web Server Gateway Interface (WSGI) HTTP server, and a Docker as a container technology to package up this application.
+# Boilerplate for Containerized Python Web App
+> This is a boilerplate for containerized Python backend app aimed for production loads. It has Flask as a Python micro web framework, Gunicorn as a Python Web Server Gateway Interface (WSGI) HTTP server, and a Docker as a container technology to package up this application. Consider connectiong this web app to some reverse proxy, such as NGINX web server, to provide high performance & stability with real production loads.
