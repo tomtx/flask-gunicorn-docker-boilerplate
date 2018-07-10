@@ -1,7 +1,7 @@
 from flask import Flask
 
-from api_blueprint import api, blueprint
-from authentication_controller import ns as authentication_namespace
+from features.api_blueprint import api, blueprint
+from features.authentication_controller import ns as authentication_namespace
 
 # Primitive placement of web app instance for Gunicorn
 # 1) create an instance of the Flask class for this web app
