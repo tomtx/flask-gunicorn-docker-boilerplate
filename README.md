@@ -15,7 +15,7 @@ localhost:5858/app
 ```
 3) You should see some Swagger like this. Also, you can run that one sample authentication API included there. This should return the "Python hello world!" message in the repsonse body (no payload necessary).
 
-![picture](https://github.com/tomtx/flask-gunicorn-docker-boilerplate/blob/master/swagger-screenshot.png)
+![picture](swagger-screenshot.png)
 
 ## Requirements
 * Docker CE 18+
