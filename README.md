@@ -9,4 +9,4 @@ docker run -d -p 5858:5858 web-app
 ```
 
 ## Requirements
-* Docker
+* Docker 18+
